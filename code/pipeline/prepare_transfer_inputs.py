@@ -1,0 +1,19 @@
+"""Prepare source cohort without any breast lineage; NNLS uses only external atlas."""
+import json,hashlib
+from pathlib import Path
+from datetime import datetime
+import numpy as np,pandas as pd
+from scipy.optimize import nnls
+ROOT=Path(__file__).resolve().parents[1];F=ROOT/'data/processed/expanded_gdsc_features_20260926_142255';E=ROOT/'data/processed/depmap_26q1_20260925_161400';G=ROOT/'data/processed/gdsc_25q2_20260926_135058';O=ROOT/'data/processed'/('transfer_inputs_'+datetime.now().strftime('%Y%m%d_%H%M%S'));O.mkdir()
+meta=pd.read_csv(E/'sample_ids_and_metadata.csv');drugs=pd.read_csv(F/'drug_ids.csv');response=pd.read_csv(G/'pancancer_response.csv',usecols=['ModelID','drug_dpc','auc']);response=response[response.auc.notna()&response.drug_dpc.isin(drugs.drug_dpc)];source_ids=set(meta.loc[~meta.known_breast & meta.known_cancer,'ModelID']);source=response[response.ModelID.isin(source_ids)].copy();target=pd.read_csv(F/'response_pairs.csv');allids=sorted(set(source.ModelID)|set(target.ModelID));cm=meta.set_index('ModelID').loc[allids].reset_index();cm['cell_row']=np.arange(len(cm));cm['role']=np.where(cm.ModelID.isin(target.ModelID),'target','source');assert not cm.loc[cm.role.eq('source'),'known_breast'].any();cm.to_csv(O/'sample_ids.csv',index=False)
+cmap=dict(zip(cm.ModelID,cm.cell_row));dmap=dict(zip(drugs.drug_dpc,drugs.index))
+for name,frame in [('source',source),('target',target)]:
+    frame['cell_row']=frame.ModelID.map(cmap);frame['drug_row']=frame.drug_dpc.map(dmap);frame['pair_id']=frame.ModelID+'::'+frame.drug_dpc;assert frame.pair_id.is_unique;frame.to_csv(O/(name+'_response.csv'),index=False)
+excluded=meta[meta.known_breast][['ModelID','known_cancer']];excluded.to_csv(O/'all_breast_excluded_from_pretraining.csv',index=False)
+expr=np.load(E/'expression_log2TPM1.npy',mmap_mode='r');bulk=np.lib.format.open_memmap(O/'bulk.npy',mode='w+',dtype='float32',shape=(len(cm),expr.shape[1]));z=np.lib.format.open_memmap(O/'Z.npy',mode='w+',dtype='float32',shape=(len(cm),8,2000));pi=np.zeros((len(cm),8),dtype='float32');ref=np.load(F/'NNLS_reference_profiles.npy');genes=pd.read_csv(F/'NNLS_reference_genes.csv').raw_column_index.to_numpy()
+for i,row in cm.iterrows():
+    b=np.asarray(expr[int(row.row_index)],dtype='float32');bulk[i]=b;x=np.expm1(b[genes].astype(float)*np.log(2));x/=x.sum();v=nnls(ref.T,x,maxiter=200)[0];v/=v.sum();pi[i]=v;num=v[:,None]*ref;den=num.sum(0,keepdims=True);allocated=np.divide(num,den,out=np.zeros_like(num),where=den>0)*x;mass=allocated.sum(1,keepdims=True);norm=np.divide(allocated,mass,out=np.zeros_like(allocated),where=mass>0);z[i]=np.log1p(norm*1e6)
+    if i%100==0:print('Source NNLS',i+1,'/',len(cm),flush=True)
+bulk.flush();z.flush();np.save(O/'pi.npy',pi)
+info={'source_exclusion':'all breast lineage including non-cancerous and target-unlabelled models; source must be known cancer','target_cells':int(cm.role.eq('target').sum()),'source_cells':int(cm.role.eq('source').sum()),'source_pairs':len(source),'target_pairs':len(target),'drug_count':len(drugs),'preprocessing_fitted':False,'remaining_guard':'source validation cells must be excluded from transform fitting; for drug holdout, remove target validation and test drugs before source split and all feature fitting','input_variant':'external 26-donor TPM NNLS conditional allocation, same as no-pretraining expanded core','feature_directory':str(F),'source_hashes':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__),F/'source_hashes.json',E/'expression_log2TPM1.npy',G/'pancancer_response.csv']}}
+(O/'config.json').write_text(json.dumps(info,indent=2));(O/'COMPLETE.json').write_text(json.dumps({'status':'source_inputs_ready',**{k:info[k] for k in ['source_cells','target_cells','source_pairs','target_pairs']}}));print(O)
