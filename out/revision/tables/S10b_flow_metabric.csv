@@ -1,0 +1,27 @@
+cohort,step,n_remaining,n_excluded,reason
+METABRIC,cBioPortal brca_metabric patients (clinical table),2509,,
+METABRIC,excluded: no Illumina HT-12 expression profile in data_mrna_illumina_microarray,1980,529,not deconvolvable
+METABRIC-OS,deconvolved (MuSiC) cohort,1980,,
+METABRIC-OS,excluded: OS status/time missing,1980,0,endpoint missing
+METABRIC-OS,excluded: OS time = 0,1979,1,zero follow-up
+METABRIC-OS,  -> KM / unadjusted analysis set,1979,,events=1143
+METABRIC-OS,excluded: PAM50/claudin-low call missing,1979,0,covariate missing
+METABRIC-OS,excluded: age missing,1979,0,covariate missing
+METABRIC-OS,excluded: histological grade missing,1892,87,covariate missing
+METABRIC-OS,  -> adjusted Cox analysis set,1892,,events=1086
+METABRIC-DSS,deconvolved (MuSiC) cohort,1980,,
+METABRIC-DSS,excluded: DSS status/time missing,1979,1,endpoint missing
+METABRIC-DSS,excluded: DSS time = 0,1978,1,zero follow-up
+METABRIC-DSS,  -> KM / unadjusted analysis set,1978,,events=646
+METABRIC-DSS,excluded: PAM50/claudin-low call missing,1978,0,covariate missing
+METABRIC-DSS,excluded: age missing,1978,0,covariate missing
+METABRIC-DSS,excluded: histological grade missing,1891,87,covariate missing
+METABRIC-DSS,  -> adjusted Cox analysis set,1891,,events=628
+METABRIC-RFS,deconvolved (MuSiC) cohort,1980,,
+METABRIC-RFS,excluded: RFS status/time missing,1979,1,endpoint missing
+METABRIC-RFS,excluded: RFS time = 0,1975,4,zero follow-up
+METABRIC-RFS,  -> KM / unadjusted analysis set,1975,,events=800
+METABRIC-RFS,excluded: PAM50/claudin-low call missing,1975,0,covariate missing
+METABRIC-RFS,excluded: age missing,1975,0,covariate missing
+METABRIC-RFS,excluded: histological grade missing,1888,87,covariate missing
+METABRIC-RFS,  -> adjusted Cox analysis set,1888,,events=769

@@ -1,0 +1,395 @@
+section,quantity,v1_REV5,v2_corrected,delta
+benchmark: ensemble median per-drug r,crDRP-full [pair],0.272378180585186,0.2666976470294435,-0.0056805335557424
+benchmark: ensemble median per-drug r,crDRP-full [drug],0.2470483083292004,0.2577582273064129,0.0107099189772124
+benchmark: ensemble median per-drug r,crDRP-full [cell],0.1127052767290293,0.0593427772588698,-0.0533624994701595
+benchmark: ensemble median per-drug r,crDRP-bulk [pair],0.2516032936251965,0.2839086385256559,0.0323053449004593
+benchmark: ensemble median per-drug r,crDRP-bulk [drug],0.1975978800331395,0.2206787016805075,0.0230808216473679
+benchmark: ensemble median per-drug r,crDRP-bulk [cell],0.0643513593163729,0.0351711393509848,-0.029180219965388
+benchmark: ensemble median per-drug r,Transformer-full [pair],0.4644413275314979,0.4385655079689262,-0.0258758195625717
+benchmark: ensemble median per-drug r,Transformer-full [drug],0.3430243122571096,0.3558940920191436,0.012869779762034
+benchmark: ensemble median per-drug r,Transformer-full [cell],0.0119618270316266,-0.0303432278929831,-0.0423050549246097
+benchmark: ensemble median per-drug r,Transformer-bulk [pair],0.3114845055345894,0.2663032259878103,-0.045181279546779
+benchmark: ensemble median per-drug r,Transformer-bulk [drug],0.2156416284975505,0.260767743600739,0.0451261151031885
+benchmark: ensemble median per-drug r,Transformer-bulk [cell],0.0265168250860258,0.0378844175567126,0.0113675924706868
+benchmark: ensemble median per-drug r,GlobalXGB [pair],0.3541355135282548,0.3287221865415523,-0.0254133269867025
+benchmark: ensemble median per-drug r,GlobalXGB [drug],0.3456601984543213,0.3213176637493144,-0.0243425347050068
+benchmark: ensemble median per-drug r,GlobalXGB [cell],0.0156045879145946,0.0127962038172804,-0.0028083840973141
+benchmark: ensemble median per-drug r,GlobalXGB+pi+Z8 [pair],0.3851205767031641,0.3699908139329101,-0.0151297627702539
+benchmark: ensemble median per-drug r,GlobalXGB+pi+Z8 [drug],0.3226158166925297,0.3226958260051354,8.000931260571109e-05
+benchmark: ensemble median per-drug r,GlobalXGB+pi+Z8 [cell],0.0873529322140917,0.0856639244825951,-0.0016890077314965
+benchmark: ensemble median per-drug r,NaiveMeanEffects [pair],0.2651052093339386,0.2651052093339386,0
+benchmark: ensemble median per-drug r,NaiveMeanEffects [drug],0.3465555834221843,0.3465555834221843,0
+benchmark: ensemble median per-drug r,NaiveMeanEffects [cell],-0.3025556536387732,-0.3025556536387732,0
+benchmark: per-seed mean,crDRP-full [pair],0.2265275216207703,0.2345721149224875,0.0080445933017171
+benchmark: per-seed mean,crDRP-bulk [pair],0.209088088399543,0.2448871656036168,0.0357990772040738
+benchmark: per-seed mean,Transformer-full [pair],0.3947476354317912,0.3751184569702171,-0.019629178461574
+benchmark: per-seed mean,Transformer-bulk [pair],0.2692321241369331,0.2415656316296193,-0.0276664925073137
+benchmark: per-seed mean,GlobalXGB [pair],0.3199963843296698,0.3058873415522694,-0.0141090427774004
+benchmark: per-seed mean,crDRP-bulk-noPretrain-trainall [pair],0.0004079280760532,0.0148236099258455,0.0144156818497923
+benchmark: contrast,crDRP-full - crDRP-bulk [pair] median_paired_diff,0.0061678543181379,0.0003409246792634,-0.0058269296388745
+benchmark: contrast,crDRP-full - crDRP-bulk [pair] twoway_lo,-0.0387684486514022,-0.0490212586472427,-0.0102528099958405
+benchmark: contrast,crDRP-full - crDRP-bulk [pair] twoway_hi,0.0543552839275212,0.0302102876216593,-0.0241449963058619
+benchmark: contrast,crDRP-full - crDRP-bulk [pair] t_widened_lo,-0.0605617017156119,-0.0553246440418721,0.0052370576737397
+benchmark: contrast,crDRP-full - crDRP-bulk [pair] t_widened_hi,0.0751286453246971,0.0397643852182932,-0.0353642601064038
+benchmark: contrast,crDRP-full - crDRP-bulk [pair] n_seeds_positive,3,1,-2
+benchmark: contrast,crDRP-full - crDRP-bulk [drug] median_paired_diff,0.0136985505960489,0.0037815918724277,-0.0099169587236212
+benchmark: contrast,crDRP-full - crDRP-bulk [drug] twoway_lo,-0.0415948624226174,-0.0373063637326432,0.0042884986899742
+benchmark: contrast,crDRP-full - crDRP-bulk [drug] twoway_hi,0.0571715186562408,0.044390872947268,-0.0127806457089728
+benchmark: contrast,crDRP-full - crDRP-bulk [drug] t_widened_lo,-0.0466741203737432,-0.0480237380047954,-0.0013496176310521
+benchmark: contrast,crDRP-full - crDRP-bulk [drug] t_widened_hi,0.0634720056573205,0.0552081007690951,-0.0082639048882253
+benchmark: contrast,crDRP-full - crDRP-bulk [drug] n_seeds_positive,2,3,1
+benchmark: contrast,crDRP-full - crDRP-bulk [cell] median_paired_diff,0.039855959960524,0.0005288900919701,-0.0393270698685538
+benchmark: contrast,crDRP-full - crDRP-bulk [cell] twoway_lo,-0.048133884356351,-0.0860376537598039,-0.0379037694034529
+benchmark: contrast,crDRP-full - crDRP-bulk [cell] twoway_hi,0.1720196741249636,0.1336872241246935,-0.0383324500002701
+benchmark: contrast,crDRP-full - crDRP-bulk [cell] t_widened_lo,-0.0943808710769024,-0.1296919527894644,-0.035311081712562
+benchmark: contrast,crDRP-full - crDRP-bulk [cell] t_widened_hi,0.2064229478236728,0.1654374809193752,-0.0409854669042975
+benchmark: contrast,crDRP-full - crDRP-bulk [cell] n_seeds_positive,4,2,-2
+benchmark: contrast,Transformer-full - Transformer-bulk [pair] median_paired_diff,0.078608688858605,0.086615008880891,0.008006320022286
+benchmark: contrast,Transformer-full - Transformer-bulk [pair] twoway_lo,0.0262056904846144,0.0295676588100937,0.0033619683254792
+benchmark: contrast,Transformer-full - Transformer-bulk [pair] twoway_hi,0.1214494015007754,0.1389974223590418,0.0175480208582664
+benchmark: contrast,Transformer-full - Transformer-bulk [pair] t_widened_lo,0.0249011101704394,0.0276444898928329,0.0027433797223935
+benchmark: contrast,Transformer-full - Transformer-bulk [pair] t_widened_hi,0.1230356674825228,0.1410855440482343,0.0180498765657115
+benchmark: contrast,Transformer-full - Transformer-bulk [pair] n_seeds_positive,5,5,0
+benchmark: contrast,Transformer-full - Transformer-bulk [drug] median_paired_diff,0.0503898988483487,0.0358360757850955,-0.0145538230632532
+benchmark: contrast,Transformer-full - Transformer-bulk [drug] twoway_lo,0.0071294431956643,0.0015425564373378,-0.0055868867583265
+benchmark: contrast,Transformer-full - Transformer-bulk [drug] twoway_hi,0.1069910706554376,0.0926809939401671,-0.0143100767152705
+benchmark: contrast,Transformer-full - Transformer-bulk [drug] t_widened_lo,0.0011377956963058,-0.0132170310439192,-0.014354826740225
+benchmark: contrast,Transformer-full - Transformer-bulk [drug] t_widened_hi,0.1116923889409804,0.1026305855922683,-0.009061803348712
+benchmark: contrast,Transformer-full - Transformer-bulk [drug] n_seeds_positive,5,4,-1
+benchmark: contrast,Transformer-full - Transformer-bulk [cell] median_paired_diff,-0.047751566673835,-0.1082184817002304,-0.0604669150263954
+benchmark: contrast,Transformer-full - Transformer-bulk [cell] twoway_lo,-0.1519414155914627,-0.2280806136307036,-0.0761391980392408
+benchmark: contrast,Transformer-full - Transformer-bulk [cell] twoway_hi,0.0655206840813804,0.0427996305606138,-0.0227210535207666
+benchmark: contrast,Transformer-full - Transformer-bulk [cell] t_widened_lo,-0.1693069220370354,-0.2367674464066853,-0.0674605243696498
+benchmark: contrast,Transformer-full - Transformer-bulk [cell] t_widened_hi,0.081673247759674,0.0497827078111532,-0.0318905399485207
+benchmark: contrast,Transformer-full - Transformer-bulk [cell] n_seeds_positive,1,0,-1
+benchmark: contrast,crDRP-full_fullft - crDRP-bulk_fullft [pair] median_paired_diff,0.0614013913838643,0.0529958240007185,-0.0084055673831458
+benchmark: contrast,crDRP-full_fullft - crDRP-bulk_fullft [pair] twoway_lo,0.0189795485476374,0.0114839721400873,-0.0074955764075501
+benchmark: contrast,crDRP-full_fullft - crDRP-bulk_fullft [pair] twoway_hi,0.1135253685507173,0.0910681140408091,-0.0224572545099082
+benchmark: contrast,crDRP-full_fullft - crDRP-bulk_fullft [pair] t_widened_lo,0.0024589675263859,0.0020841771449209,-0.000374790381465
+benchmark: contrast,crDRP-full_fullft - crDRP-bulk_fullft [pair] t_widened_hi,0.1276698271301811,0.1011441490968964,-0.0265256780332847
+benchmark: contrast,crDRP-full_fullft - crDRP-bulk_fullft [pair] n_seeds_positive,5,5,0
+benchmark: contrast,crDRP-full - NaiveMeanEffects [pair] median_paired_diff,-0.0040601901114556,0.0247882354521847,0.0288484255636403
+benchmark: contrast,crDRP-full - NaiveMeanEffects [pair] twoway_lo,-0.067393409585205,-0.0365121103060731,0.0308812992791319
+benchmark: contrast,crDRP-full - NaiveMeanEffects [pair] twoway_hi,0.0945187083009593,0.1050217061636789,0.0105029978627195
+benchmark: contrast,crDRP-full - NaiveMeanEffects [pair] t_widened_lo,-0.0742632395728057,-0.0412914739459942,0.0329717656268115
+benchmark: contrast,crDRP-full - NaiveMeanEffects [pair] t_widened_hi,0.0990667737581738,0.1087299141730562,0.0096631404148824
+benchmark: contrast,crDRP-full - NaiveMeanEffects [pair] n_seeds_positive,0,1,1
+benchmark: contrast,crDRP-bulk - NaiveMeanEffects [pair] median_paired_diff,0.0069785580049506,0.0354717285291639,0.0284931705242133
+benchmark: contrast,crDRP-bulk - NaiveMeanEffects [pair] twoway_lo,-0.0827511668864343,-0.0299224284225306,0.0528287384639037
+benchmark: contrast,crDRP-bulk - NaiveMeanEffects [pair] twoway_hi,0.1097023082398102,0.1345911066199485,0.0248887983801383
+benchmark: contrast,crDRP-bulk - NaiveMeanEffects [pair] t_widened_lo,-0.0906816354777072,-0.035549418895936,0.0551322165817712
+benchmark: contrast,crDRP-bulk - NaiveMeanEffects [pair] t_widened_hi,0.1166975569262877,0.1383904281481293,0.0216928712218416
+benchmark: contrast,crDRP-bulk - NaiveMeanEffects [pair] n_seeds_positive,1,3,2
+benchmark: contrast,Transformer-full - GlobalXGB [pair] median_paired_diff,0.0409468600635323,0.0468064228760393,0.0058595628125069
+benchmark: contrast,Transformer-full - GlobalXGB [pair] twoway_lo,-0.0129328700903564,-0.0114341562190594,0.001498713871297
+benchmark: contrast,Transformer-full - GlobalXGB [pair] twoway_hi,0.1054248892811576,0.0917919327407112,-0.0136329565404464
+benchmark: contrast,Transformer-full - GlobalXGB [pair] t_widened_lo,-0.0173761786733883,-0.0190440820144329,-0.0016679033410446
+benchmark: contrast,Transformer-full - GlobalXGB [pair] t_widened_hi,0.1091815123880032,0.1012859606749427,-0.0078955517130605
+benchmark: contrast,Transformer-full - GlobalXGB [pair] n_seeds_positive,5,4,-1
+benchmark: contrast,crDRP-bulk - GlobalXGB [pair] median_paired_diff,-0.0383228975232478,-0.0140140718364691,0.0243088256867787
+benchmark: contrast,crDRP-bulk - GlobalXGB [pair] twoway_lo,-0.1264593311513912,-0.0841220371232712,0.04233729402812
+benchmark: contrast,crDRP-bulk - GlobalXGB [pair] twoway_hi,0.0393262804169487,0.0504600099936957,0.011133729576747
+benchmark: contrast,crDRP-bulk - GlobalXGB [pair] t_widened_lo,-0.1309199467511774,-0.0928411230357231,0.0380788237154543
+benchmark: contrast,crDRP-bulk - GlobalXGB [pair] t_widened_hi,0.0443546534069763,0.0598471793847033,0.0154925259777269
+benchmark: contrast,crDRP-bulk - GlobalXGB [pair] n_seeds_positive,0,0,0
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [pair] median_paired_diff,0.0593019129249066,0.0486969318477513,-0.0106049810771553
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [pair] twoway_lo,0.0181984181509292,0.0157273792888715,-0.0024710388620577
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [pair] twoway_hi,0.0903685638384622,0.0904636136064226,9.504976796040344e-05
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [pair] t_widened_lo,0.0176088638013033,0.0148598878851209,-0.0027489759161823
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [pair] t_widened_hi,0.0911444923049369,0.0911517296134499,7.237308513000085e-06
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [pair] n_seeds_positive,5,5,0
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [drug] median_paired_diff,0.0262678424861597,0.0143377198184953,-0.0119301226676643
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [drug] twoway_lo,-0.0020239155074707,-0.0101160361492806,-0.0080921206418099
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [drug] twoway_hi,0.0516461647463106,0.0474398282978625,-0.004206336448448
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [drug] t_widened_lo,-0.0032835474386726,-0.011325354199419,-0.0080418067607464
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [drug] t_widened_hi,0.0530432102121014,0.0483429660739954,-0.0047002441381059
+benchmark: contrast,GlobalXGB - NaiveMeanEffects [drug] n_seeds_positive,4,4,0
+benchmark: contrast,GlobalXGB+pi+Z8 - GlobalXGB [pair] median_paired_diff,0.0167146431698081,0.0110757214238499,-0.0056389217459582
+benchmark: contrast,GlobalXGB+pi+Z8 - GlobalXGB [pair] twoway_lo,0.0010105968398943,-0.0038885249064493,-0.0048991217463436
+benchmark: contrast,GlobalXGB+pi+Z8 - GlobalXGB [pair] twoway_hi,0.0429234474933451,0.0329114949483631,-0.0100119525449819
+benchmark: contrast,GlobalXGB+pi+Z8 - GlobalXGB [pair] t_widened_lo,-0.0075425814253126,-0.0045383937730042,0.0030041876523084
+benchmark: contrast,GlobalXGB+pi+Z8 - GlobalXGB [pair] t_widened_hi,0.0487879544736867,0.0333618814914925,-0.0154260729821942
+benchmark: contrast,GlobalXGB+pi+Z8 - GlobalXGB [pair] n_seeds_positive,5,5,0
+benchmark: contrast,Transformer-full - Transformer-TMEnoise [pair] median_paired_diff,0.0376553334338262,-0.0023257468517521,-0.0399810802855783
+benchmark: contrast,Transformer-full - Transformer-TMEnoise [pair] twoway_lo,-0.0109621457275797,-0.0240156105431043,-0.0130534648155246
+benchmark: contrast,Transformer-full - Transformer-TMEnoise [pair] twoway_hi,0.0892278763419748,0.0375680185440795,-0.0516598577978952
+benchmark: contrast,Transformer-full - Transformer-TMEnoise [pair] t_widened_lo,-0.0597782038901364,-0.0825910095108243,-0.0228128056206879
+benchmark: contrast,Transformer-full - Transformer-TMEnoise [pair] t_widened_hi,0.1365965386895896,0.0846430677902681,-0.0519534708993214
+benchmark: contrast,Transformer-full - Transformer-TMEnoise [pair] n_seeds_positive,5,3,-2
+benchmark: contrast,Transformer-full - Transformer-malonly [pair] median_paired_diff,0.0168351628208417,0.0223328925701864,0.0054977297493447
+benchmark: contrast,Transformer-full - Transformer-malonly [pair] twoway_lo,-0.0295768841724656,-0.0133200238593497,0.0162568603131159
+benchmark: contrast,Transformer-full - Transformer-malonly [pair] twoway_hi,0.0412467115813264,0.0544139720776156,0.0131672604962891
+benchmark: contrast,Transformer-full - Transformer-malonly [pair] t_widened_lo,-0.0349517159194785,-0.0159814133743425,0.018970302545136
+benchmark: contrast,Transformer-full - Transformer-malonly [pair] t_widened_hi,0.0503571916443061,0.0573479072416309,0.0069907155973248
+benchmark: contrast,Transformer-full - Transformer-malonly [pair] n_seeds_positive,4,5,1
+benchmark: contrast,Transformer-bulkinput - Transformer-bulk [pair] median_paired_diff,0.0440508851142834,0.1011424292880147,0.0570915441737313
+benchmark: contrast,Transformer-bulkinput - Transformer-bulk [pair] twoway_lo,-0.0088639410118469,0.0327135015772542,0.0415774425891011
+benchmark: contrast,Transformer-bulkinput - Transformer-bulk [pair] twoway_hi,0.1019530625459839,0.1445505393679914,0.0425974768220075
+benchmark: contrast,Transformer-bulkinput - Transformer-bulk [pair] t_widened_lo,-0.0103771124611384,0.0248857834410167,0.0352628959021551
+benchmark: contrast,Transformer-bulkinput - Transformer-bulk [pair] t_widened_hi,0.1033390816414476,0.1560680326884816,0.052728951047034
+benchmark: contrast,Transformer-bulkinput - Transformer-bulk [pair] n_seeds_positive,5,5,0
+benchmark: contrast,Transformer-full - Transformer-bulkinput [pair] median_paired_diff,0.0443532329337432,0.0005458770111723,-0.0438073559225709
+benchmark: contrast,Transformer-full - Transformer-bulkinput [pair] twoway_lo,-0.0113202833839796,-0.0278725444003534,-0.0165522610163737
+benchmark: contrast,Transformer-full - Transformer-bulkinput [pair] twoway_hi,0.0688590083767159,0.0321882658556247,-0.0366707425210912
+benchmark: contrast,Transformer-full - Transformer-bulkinput [pair] t_widened_lo,-0.0173072122491366,-0.0300341735083341,-0.0127269612591975
+benchmark: contrast,Transformer-full - Transformer-bulkinput [pair] t_widened_hi,0.0804503673218436,0.0341431028793303,-0.0463072644425133
+benchmark: contrast,Transformer-full - Transformer-bulkinput [pair] n_seeds_positive,5,4,-1
+benchmark: contrast,Transformer-malonly - Transformer-bulk [pair] median_paired_diff,0.0740838674958409,0.0532685411887942,-0.0208153263070466
+benchmark: contrast,Transformer-malonly - Transformer-bulk [pair] twoway_lo,0.0162371446688586,0.0105578308344003,-0.0056793138344582
+benchmark: contrast,Transformer-malonly - Transformer-bulk [pair] twoway_hi,0.1188013616753262,0.1147026042127306,-0.0040987574625956
+benchmark: contrast,Transformer-malonly - Transformer-bulk [pair] t_widened_lo,0.0128595453264719,0.0019212894195445,-0.0109382559069274
+benchmark: contrast,Transformer-malonly - Transformer-bulk [pair] t_widened_hi,0.123092321551945,0.1209920938489048,-0.0021002277030401
+benchmark: contrast,Transformer-malonly - Transformer-bulk [pair] n_seeds_positive,5,5,0
+benchmark: contrast,crDRP-full - crDRP-TMEnoise [pair] median_paired_diff,-0.0332130301064874,0.0088937218259335,0.0421067519324209
+benchmark: contrast,crDRP-full - crDRP-TMEnoise [pair] twoway_lo,-0.0593850971651459,-0.0213164270556888,0.0380686701094571
+benchmark: contrast,crDRP-full - crDRP-TMEnoise [pair] twoway_hi,-0.0061713499705722,0.0404853137968685,0.0466566637674406
+benchmark: contrast,crDRP-full - crDRP-TMEnoise [pair] t_widened_lo,-0.0648601691171469,-0.0359650395502191,0.0288951295669278
+benchmark: contrast,crDRP-full - crDRP-TMEnoise [pair] t_widened_hi,-0.0008430319907903,0.0546942028278931,0.0555372348186834
+benchmark: contrast,crDRP-full - crDRP-TMEnoise [pair] n_seeds_positive,0,3,3
+benchmark: contrast,crDRP-full - crDRP-malonly [pair] median_paired_diff,-0.0137892206832005,-0.0044346763798175,0.0093545443033829
+benchmark: contrast,crDRP-full - crDRP-malonly [pair] twoway_lo,-0.0416913002166409,-0.0234610219772615,0.0182302782393794
+benchmark: contrast,crDRP-full - crDRP-malonly [pair] twoway_hi,0.0150095974492216,0.0261887308848363,0.0111791334356146
+benchmark: contrast,crDRP-full - crDRP-malonly [pair] t_widened_lo,-0.0495902281854758,-0.0380508286018605,0.0115393995836153
+benchmark: contrast,crDRP-full - crDRP-malonly [pair] t_widened_hi,0.0227149985484426,0.0368671024670923,0.0141521039186497
+benchmark: contrast,crDRP-full - crDRP-malonly [pair] n_seeds_positive,1,2,1
+benchmark: contrast,Transformer-full - Transformer-full-malonlyattn [pair] median_paired_diff,0.045023550540897,0.0299848417556833,-0.0150387087852137
+benchmark: contrast,Transformer-full - Transformer-full-malonlyattn [pair] twoway_lo,0.0029833531001838,-0.0055364907473172,-0.0085198438475009
+benchmark: contrast,Transformer-full - Transformer-full-malonlyattn [pair] twoway_hi,0.0722456875953465,0.0598115869608395,-0.0124341006345069
+benchmark: contrast,Transformer-full - Transformer-full-malonlyattn [pair] t_widened_lo,-0.0065543971371954,-0.0126281597607254,-0.0060737626235299
+benchmark: contrast,Transformer-full - Transformer-full-malonlyattn [pair] t_widened_hi,0.08544571317034,0.0679813885064348,-0.0174643246639051
+benchmark: contrast,Transformer-full - Transformer-full-malonlyattn [pair] n_seeds_positive,5,5,0
+benchmark: contrast,Transformer-full - Transformer-full-nocrossattn [pair] median_paired_diff,0.0150605420756779,0.0086385032006759,-0.0064220388750019
+benchmark: contrast,Transformer-full - Transformer-full-nocrossattn [pair] twoway_lo,-0.0058207597136592,-0.0150661123455992,-0.0092453526319399
+benchmark: contrast,Transformer-full - Transformer-full-nocrossattn [pair] twoway_hi,0.0465322777689957,0.0316479385545742,-0.0148843392144214
+benchmark: contrast,Transformer-full - Transformer-full-nocrossattn [pair] t_widened_lo,-0.02817199631267,-0.0209857896264342,0.0071862066862357
+benchmark: contrast,Transformer-full - Transformer-full-nocrossattn [pair] t_widened_hi,0.0642895351451351,0.0377095204277165,-0.0265800147174185
+benchmark: contrast,Transformer-full - Transformer-full-nocrossattn [pair] n_seeds_positive,4,4,0
+"corrected drugs: per-drug r (pair, ensemble)",(+)-camptothecin / crDRP-full,0.558455247541635,0.6099520713218599,0.0514968237802249
+"corrected drugs: per-drug r (pair, ensemble)",(+)-camptothecin / crDRP-bulk,0.5528196448513711,0.6096113583045298,0.0567917134531587
+"corrected drugs: per-drug r (pair, ensemble)",(+)-camptothecin / Transformer-full,0.747300687960543,0.7803722797583674,0.0330715917978243
+"corrected drugs: per-drug r (pair, ensemble)",(+)-camptothecin / Transformer-bulk,0.598367721258689,0.598059446604458,-0.000308274654231
+"corrected drugs: per-drug r (pair, ensemble)",(+)-camptothecin / GlobalXGB,0.5990422935905404,0.8030771046635704,0.20403481107303
+"corrected drugs: per-drug r (pair, ensemble)",A-366 / crDRP-full,0.1162283677339814,0.0533469485839858,-0.0628814191499956
+"corrected drugs: per-drug r (pair, ensemble)",A-366 / crDRP-bulk,0.3662748943833854,0.1377732579782527,-0.2285016364051326
+"corrected drugs: per-drug r (pair, ensemble)",A-366 / Transformer-full,-0.0915833011274633,-0.0349016347714578,0.0566816663560055
+"corrected drugs: per-drug r (pair, ensemble)",A-366 / Transformer-bulk,-0.2510855425698196,-0.1668501881204973,0.0842353544493222
+"corrected drugs: per-drug r (pair, ensemble)",A-366 / GlobalXGB,-0.0702334942940653,0.0012177393988278,0.0714512336928932
+"corrected drugs: per-drug r (pair, ensemble)",BEN / crDRP-full,0.3614102258818987,0.3844090660875029,0.0229988402056042
+"corrected drugs: per-drug r (pair, ensemble)",BEN / crDRP-bulk,0.3664092812904485,0.3577394212534206,-0.0086698600370278
+"corrected drugs: per-drug r (pair, ensemble)",BEN / Transformer-full,0.4809221894476451,0.3481529155985542,-0.1327692738490908
+"corrected drugs: per-drug r (pair, ensemble)",BEN / Transformer-bulk,0.4077552320175248,0.1304544062265288,-0.2773008257909959
+"corrected drugs: per-drug r (pair, ensemble)",BEN / GlobalXGB,0.2165452749423432,0.1776890475636371,-0.0388562273787061
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=1.0 delta_median_vs_bulk,-0.0296987714676084,-0.0651214169558799,-0.0354226454882715
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=1.0 ci_lo_twoway,-0.1212633273571657,-0.1487602764175072,-0.0274969490603414
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=1.0 ci_hi_twoway,0.0518479833391378,0.040599536414578,-0.0112484469245597
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=0.7 delta_median_vs_bulk,0.0458652603316282,0.0454125396914266,-0.0004527206402016
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=0.7 ci_lo_twoway,-0.0809745583799926,-0.1003913320017519,-0.0194167736217593
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=0.7 ci_hi_twoway,0.1188329170380333,0.1230253321841375,0.0041924151461042
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=0.5 delta_median_vs_bulk,0.0331225513172112,0.0196214936927655,-0.0135010576244457
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=0.5 ci_lo_twoway,-0.0933762156196033,-0.112843644891041,-0.0194674292714377
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=0.5 ci_hi_twoway,0.1129793879478338,0.1181837762356903,0.0052043882878565
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=0.3 delta_median_vs_bulk,0.0078244335660413,0.016470290294952,0.0086458567289107
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=0.3 ci_lo_twoway,-0.1123457073655279,-0.1231837870241854,-0.0108380796586575
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP rho=0.3 ci_hi_twoway,0.090440609110085,0.1038054776875441,0.013364868577459
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=1.0 delta_median_vs_bulk,-0.0029860443487893,-0.0160797769288935,-0.0130937325801042
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=1.0 ci_lo_twoway,-0.0870270004910586,-0.100317984598724,-0.0132909841076653
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=1.0 ci_hi_twoway,0.0770331495820259,0.065097805873216,-0.0119353437088099
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=0.7 delta_median_vs_bulk,0.064103382606281,0.0728448613763323,0.0087414787700512
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=0.7 ci_lo_twoway,-0.0395927633079047,-0.0371254441112972,0.0024673191966074
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=0.7 ci_hi_twoway,0.1419020394724809,0.1551349998444232,0.0132329603719422
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=0.5 delta_median_vs_bulk,0.0675268914742802,0.0646017494005888,-0.0029251420736914
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=0.5 ci_lo_twoway,-0.0446466505512377,-0.0499155449715416,-0.0052688944203039
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=0.5 ci_hi_twoway,0.1374243644680482,0.1444936050859246,0.0070692406178763
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=0.3 delta_median_vs_bulk,0.0432804918643238,0.047672416353879,0.0043919244895552
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=0.3 ci_lo_twoway,-0.0810353671473175,-0.0773254965477245,0.003709870599593
+titration: arm - crDRP-bulk (mean of 3 backgrounds),BP_FTLDO rho=0.3 ci_hi_twoway,0.1195333472838799,0.1299586707631178,0.0104253234792378
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=1.0 delta_median_vs_bulk,-0.1002211173192363,-0.1108364270469046,-0.0106153097276683
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=1.0 ci_lo_twoway,-0.1961825016691197,-0.2165543681932067,-0.0203718665240869
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=1.0 ci_hi_twoway,-0.0038259736415772,-0.0151564757681831,-0.0113305021266058
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=0.7 delta_median_vs_bulk,-0.068415030311838,-0.077908474703527,-0.009493444391689
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=0.7 ci_lo_twoway,-0.2067247246944599,-0.2294101485000634,-0.0226854238056034
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=0.7 ci_hi_twoway,0.0330345928617162,0.0249855973327244,-0.0080489955289918
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=0.5 delta_median_vs_bulk,-0.0556985214279935,-0.0585698526788554,-0.0028713312508618
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=0.5 ci_lo_twoway,-0.1859743894105996,-0.197289970379336,-0.0113155809687363
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=0.5 ci_hi_twoway,0.0459941356581532,0.0477882774163877,0.0017941417582345
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=0.3 delta_median_vs_bulk,-0.0431745415062057,-0.0350194837708055,0.0081550577354002
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=0.3 ci_lo_twoway,-0.1809787059908645,-0.1931411216179225,-0.0121624156270579
+titration: arm - crDRP-bulk (mean of 3 backgrounds),NNLS rho=0.3 ci_hi_twoway,0.0397955835103691,0.0493605312571656,0.0095649477467965
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=1.0 delta_median_vs_bulk,0.0079007239500638,0.0023221232827528,-0.005578600667311
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=1.0 ci_lo_twoway,-0.0623156293089315,-0.0789368907360322,-0.0166212614271007
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=1.0 ci_hi_twoway,0.0911112261153885,0.0769916136987899,-0.0141196124165985
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=0.7 delta_median_vs_bulk,0.1309837949030562,0.1346033518742649,0.0036195569712086
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=0.7 ci_lo_twoway,0.0323175764376891,0.0280335940662922,-0.0042839823713969
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=0.7 ci_hi_twoway,0.2333292322753529,0.2402771806972852,0.0069479484219323
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=0.5 delta_median_vs_bulk,0.1553899705455575,0.1362882433216826,-0.0191017272238749
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=0.5 ci_lo_twoway,0.0486156381514861,0.0340269117079242,-0.0145887264435618
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=0.5 ci_hi_twoway,0.241365413852406,0.243222798350135,0.0018573844977289
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=0.3 delta_median_vs_bulk,0.1397888780529575,0.1281466197570143,-0.0116422582959432
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=0.3 ci_lo_twoway,0.0404317126217094,0.0226370535048389,-0.0177946591168705
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_A rho=0.3 ci_hi_twoway,0.219182275141566,0.2116755180474699,-0.007506757094096
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=1.0 delta_median_vs_bulk,0.0079007239500638,0.0023221232827528,-0.005578600667311
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=1.0 ci_lo_twoway,-0.0623156293089315,-0.0789368907360322,-0.0166212614271007
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=1.0 ci_hi_twoway,0.0911112261153885,0.0769916136987899,-0.0141196124165985
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=0.7 delta_median_vs_bulk,0.1351715890896265,0.1474047010271934,0.0122331119375669
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=0.7 ci_lo_twoway,0.0307936905594472,0.0261268148305371,-0.0046668757289101
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=0.7 ci_hi_twoway,0.2273234797252929,0.2411863989296104,0.0138629192043175
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=0.5 delta_median_vs_bulk,0.1651133385021887,0.142010395722813,-0.0231029427793757
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=0.5 ci_lo_twoway,0.0528722247112048,0.0366663784150656,-0.0162058462961392
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=0.5 ci_hi_twoway,0.2389986861009289,0.2531033677297045,0.0141046816287755
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=0.3 delta_median_vs_bulk,0.1536042735566435,0.150675471014107,-0.0029288025425364
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=0.3 ci_lo_twoway,0.0477053508761436,0.0333677306183733,-0.0143376202577703
+titration: arm - crDRP-bulk (mean of 3 backgrounds),ORACLE_B rho=0.3 ci_hi_twoway,0.2294210579124267,0.2342601638698362,0.0048391059574094
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=1.0 delta_median_vs_bulk,0.0322688754029517,0.007258188396743,-0.0250106870062087
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=1.0 ci_lo_twoway,-0.0775771596750359,-0.0988470700022083,-0.0212699103271724
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=1.0 ci_hi_twoway,0.1469385407442059,0.122341637608109,-0.0245969031360969
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=0.7 delta_median_vs_bulk,-0.0742626057337528,-0.0659439940418442,0.0083186116919086
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=0.7 ci_lo_twoway,-0.193596356917452,-0.1916127890242121,0.0019835678932398
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=0.7 ci_hi_twoway,-0.0005115156768593,0.0024769063262005,0.0029884220030598
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=0.5 delta_median_vs_bulk,-0.1067569498805664,-0.1062631882389153,0.0004937616416511
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=0.5 ci_lo_twoway,-0.2365356718750944,-0.2313181256137216,0.0052175462613728
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=0.5 ci_hi_twoway,-0.0301584739982133,-0.028280622223176,0.0018778517750372
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=0.3 delta_median_vs_bulk,-0.1368407794638776,-0.1246924353366066,0.012148344127271
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=0.3 ci_lo_twoway,-0.2580572608361621,-0.2581817630599068,-0.0001245022237447
+titration: arm - crDRP-bulk (mean of 3 backgrounds),XGB rho=0.3 ci_hi_twoway,-0.0597330176041551,-0.0473087241164824,0.0124242934876727
+titration: median per-drug r (mean3),BULK rho=1.0,0.2496645736496718,0.2726435010586321,0.0229789274089603
+titration: median per-drug r (mean3),BULK rho=0.5,0.0811278225122387,0.09155893067005,0.0104311081578113
+titration: median per-drug r (mean3),ORACLE_A rho=1.0,0.2575652975997356,0.274965624341385,0.0174003267416493
+titration: median per-drug r (mean3),ORACLE_A rho=0.5,0.2365177930577963,0.2278471739917327,-0.0086706190660635
+titration: median per-drug r (mean3),BP rho=1.0,0.2199658021820633,0.2075220841027522,-0.0124437180793111
+titration: median per-drug r (mean3),BP rho=0.5,0.11425037382945,0.1111804243628155,-0.0030699494666344
+titration: median per-drug r (mean3),XGB rho=1.0,0.2819334490526236,0.2799016894553752,-0.0020317595972483
+titration: median per-drug r (mean3),XGB rho=0.5,-0.0256291273683277,-0.0147042575688653,0.0109248697994624
+titration: loss decomposition (mean3),architecture_loss rho=0.5 estimate,-0.0210475045419393,-0.0471184503496523,-0.026070945807713
+titration: loss decomposition (mean3),architecture_loss rho=0.5 ci_lo_twoway,-0.0600816756895856,-0.0852850677967781,-0.0252033921071924
+titration: loss decomposition (mean3),architecture_loss rho=0.5 ci_hi_twoway,0.0129114379178655,0.0060585976692642,-0.0068528402486013
+titration: loss decomposition (mean3),architecture_loss rho=0.1 estimate,-0.1677684519894109,-0.2210452422402675,-0.0532767902508566
+titration: loss decomposition (mean3),architecture_loss rho=0.1 ci_lo_twoway,-0.2757722161895202,-0.3224362548765163,-0.046664038686996
+titration: loss decomposition (mean3),architecture_loss rho=0.1 ci_hi_twoway,-0.114422510341671,-0.1421284328677094,-0.0277059225260384
+titration: loss decomposition (mean3),deconv_loss_BP rho=0.5 estimate,-0.1222674192283462,-0.1166667496289171,0.0056006695994291
+titration: loss decomposition (mean3),deconv_loss_BP rho=0.5 ci_lo_twoway,-0.2189034637145339,-0.2186174903302286,0.0002859733843053
+titration: loss decomposition (mean3),deconv_loss_BP rho=0.5 ci_hi_twoway,-0.0665227286363009,-0.0501601625731491,0.0163625660631518
+titration: loss decomposition (mean3),deconv_loss_BP rho=0.1 estimate,-0.0830979780837821,-0.0329615005628609,0.0501364775209211
+titration: loss decomposition (mean3),deconv_loss_BP rho=0.1 ci_lo_twoway,-0.1546433771505114,-0.1136987162883721,0.0409446608621393
+titration: loss decomposition (mean3),deconv_loss_BP rho=0.1 ci_hi_twoway,-0.005677369188513,0.0287986071304844,0.0344759763189974
+titration: loss decomposition (mean3),mal_estimation_BP rho=0.5 estimate,-0.1019585206268151,-0.1005576130278714,0.0014009075989436
+titration: loss decomposition (mean3),mal_estimation_BP rho=0.5 ci_lo_twoway,-0.1811998399500748,-0.1915566593241739,-0.0103568193740991
+titration: loss decomposition (mean3),mal_estimation_BP rho=0.5 ci_hi_twoway,-0.0455288214629864,-0.0434510866967211,0.0020777347662653
+titration: loss decomposition (mean3),mal_estimation_BP rho=0.1 estimate,-0.0496574159497668,-0.0420617476023134,0.0075956683474534
+titration: loss decomposition (mean3),mal_estimation_BP rho=0.1 ci_lo_twoway,-0.1022213980158633,-0.082069888007631,0.0201515100082323
+titration: loss decomposition (mean3),mal_estimation_BP rho=0.1 ci_hi_twoway,-0.0147034804895608,-0.0048722560733604,0.0098312244162004
+titration: loss decomposition (mean3),tme_estimation_BP rho=0.5 estimate,-0.020308898601531,-0.0161091366010456,0.0041997620004854
+titration: loss decomposition (mean3),tme_estimation_BP rho=0.5 ci_lo_twoway,-0.072219061764643,-0.0606731029138419,0.0115459588508011
+titration: loss decomposition (mean3),tme_estimation_BP rho=0.5 ci_hi_twoway,0.0169017683308973,0.0286900656335032,0.0117882973026058
+titration: loss decomposition (mean3),tme_estimation_BP rho=0.1 estimate,-0.0334405621340153,0.0091002470394524,0.0425408091734677
+titration: loss decomposition (mean3),tme_estimation_BP rho=0.1 ci_lo_twoway,-0.0781326618805388,-0.0551013040913623,0.0230313577891764
+titration: loss decomposition (mean3),tme_estimation_BP rho=0.1 ci_hi_twoway,0.0374070664372195,0.0565389651277547,0.0191318986905352
+pan-cancer titration: arm - bulk (pooled),BP rho=1.0 delta_vs_bulk,-0.0513657072963916,-0.0355206287488406,0.015845078547551
+pan-cancer titration: arm - bulk (pooled),BP rho=1.0 ci_lo_twoway,-0.1376524737204476,-0.0921478965068846,0.0455045772135629
+pan-cancer titration: arm - bulk (pooled),BP rho=1.0 ci_hi_twoway,0.0267263400331227,0.055997311838644,0.0292709718055213
+pan-cancer titration: arm - bulk (pooled),BP rho=0.7 delta_vs_bulk,-0.0273270408943767,-0.0075666628871004,0.0197603780072763
+pan-cancer titration: arm - bulk (pooled),BP rho=0.7 ci_lo_twoway,-0.1133984905856765,-0.0970518671186757,0.0163466234670008
+pan-cancer titration: arm - bulk (pooled),BP rho=0.7 ci_hi_twoway,0.0515823586156327,0.0567594478728671,0.0051770892572344
+pan-cancer titration: arm - bulk (pooled),BP rho=0.4 delta_vs_bulk,-0.0356443268106401,-0.0374489378218798,-0.0018046110112397
+pan-cancer titration: arm - bulk (pooled),BP rho=0.4 ci_lo_twoway,-0.139880646398895,-0.1273021049760311,0.0125785414228639
+pan-cancer titration: arm - bulk (pooled),BP rho=0.4 ci_hi_twoway,0.033495428838685,0.0473243830238637,0.0138289541851787
+pan-cancer titration: arm - bulk (pooled),BP rho=0.1 delta_vs_bulk,-0.0642519175349346,-0.0506469216289782,0.0136049959059564
+pan-cancer titration: arm - bulk (pooled),BP rho=0.1 ci_lo_twoway,-0.1668628308677011,-0.1417874145174573,0.0250754163502437
+pan-cancer titration: arm - bulk (pooled),BP rho=0.1 ci_hi_twoway,0.0123702523976425,0.0283428371820281,0.0159725847843856
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=1.0 delta_vs_bulk,0.0072739468788855,0.0247387357363985,0.017464788857513
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=1.0 ci_lo_twoway,-0.0659043720681597,-0.0308269819615371,0.0350773901066226
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=1.0 ci_hi_twoway,0.0773564102470762,0.0944808640294303,0.0171244537823541
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=0.7 delta_vs_bulk,0.0489891571735184,0.0662773949357394,0.017288237762221
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=0.7 ci_lo_twoway,-0.0207073699501811,-0.004628114081748,0.0160792558684331
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=0.7 ci_hi_twoway,0.1257697865933896,0.1391608590850793,0.0133910724916896
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=0.4 delta_vs_bulk,0.068730035953231,0.0612325824522301,-0.0074974535010009
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=0.4 ci_lo_twoway,-0.0146937119713958,-0.0061535753882523,0.0085401365831435
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=0.4 ci_hi_twoway,0.1492846777155266,0.1520586623337143,0.0027739846181877
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=0.1 delta_vs_bulk,0.0870188823961452,0.0494485109570961,-0.0375703714390491
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=0.1 ci_lo_twoway,-0.007663016661586,-0.0165624973432714,-0.0088994806816854
+pan-cancer titration: arm - bulk (pooled),ORACLE_A rho=0.1 ci_hi_twoway,0.1679642911208309,0.1482933240677784,-0.0196709670530524
+pan-cancer titration: arm - bulk (pooled),NNLS rho=1.0 delta_vs_bulk,-0.0444086357473077,-0.0617926661656875,-0.0173840304183798
+pan-cancer titration: arm - bulk (pooled),NNLS rho=1.0 ci_lo_twoway,-0.1248236655516478,-0.1373305095943546,-0.0125068440427068
+pan-cancer titration: arm - bulk (pooled),NNLS rho=1.0 ci_hi_twoway,0.0335162645545557,0.0321008053969335,-0.0014154591576221
+pan-cancer titration: arm - bulk (pooled),NNLS rho=0.7 delta_vs_bulk,-0.1108145474168272,-0.1562052015983309,-0.0453906541815037
+pan-cancer titration: arm - bulk (pooled),NNLS rho=0.7 ci_lo_twoway,-0.2104909014189988,-0.2795337388188478,-0.069042837399849
+pan-cancer titration: arm - bulk (pooled),NNLS rho=0.7 ci_hi_twoway,-0.0029015360865243,-0.0594882049232783,-0.056586668836754
+pan-cancer titration: arm - bulk (pooled),NNLS rho=0.4 delta_vs_bulk,-0.0786644107557741,-0.1222078668003218,-0.0435434560445476
+pan-cancer titration: arm - bulk (pooled),NNLS rho=0.4 ci_lo_twoway,-0.1936463301415192,-0.2317576084620795,-0.0381112783205603
+pan-cancer titration: arm - bulk (pooled),NNLS rho=0.4 ci_hi_twoway,0.0130505599110785,-0.0215420531902043,-0.0345926131012827
+pan-cancer titration: arm - bulk (pooled),NNLS rho=0.1 delta_vs_bulk,-0.0588608640114716,-0.1243297121825115,-0.0654688481710399
+pan-cancer titration: arm - bulk (pooled),NNLS rho=0.1 ci_lo_twoway,-0.1761522496481505,-0.23387207510077,-0.0577198254526195
+pan-cancer titration: arm - bulk (pooled),NNLS rho=0.1 ci_hi_twoway,0.0355054589388082,-0.0316789161760136,-0.0671843751148218
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=1.0 oracle mean_delta,0.5767447189723856,0.5583335598636594,-0.0184111591087261
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=1.0 oracle power_detected,1,1,0
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=1.0 nnls mean_delta,0.4648822621361622,0.3604685599734131,-0.104413702162749
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=1.0 nnls power_detected,1,0.6,-0.4
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=1.0 bp mean_delta,0.4868784881057774,0.4216044582640387,-0.0652740298417386
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=1.0 bp power_detected,1,1,0
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=2.0 oracle mean_delta,0.3574186304811187,0.3026226144854654,-0.0547960159956533
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=2.0 oracle power_detected,0.8,0.6,-0.2
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=2.0 nnls mean_delta,0.247980002233601,0.1696341007063008,-0.0783459015273002
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=2.0 nnls power_detected,0.4,0.2,-0.2
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=2.0 bp mean_delta,0.2350103196396515,0.1620706739176849,-0.0729396457219666
+"positive control: crDRP-full - bulk, affected drugs (line)",signal a beta=2.0 bp power_detected,0.4,0.2,-0.2
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=1.0 oracle mean_delta,0.0257649244058315,0.029309302147722,0.0035443777418905
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=1.0 oracle power_detected,0,0,0
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=1.0 nnls mean_delta,0.2574710058582609,0.1843877078636297,-0.0730832979946311
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=1.0 nnls power_detected,0.8,0.6,-0.2
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=1.0 bp mean_delta,0.2766258910351185,0.2037656230535872,-0.0728602679815312
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=1.0 bp power_detected,0.8,0.4,-0.4
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=2.0 oracle mean_delta,0.0031488601495662,-0.0104706046134924,-0.0136194647630586
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=2.0 oracle power_detected,0,0,0
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=2.0 nnls mean_delta,0.5997162150753665,0.5385896441358098,-0.0611265709395567
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=2.0 nnls power_detected,1,1,0
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=2.0 bp mean_delta,0.6355887529571198,0.6198290256171578,-0.015759727339962
+"positive control: crDRP-full - bulk, affected drugs (line)",signal b beta=2.0 bp power_detected,1,1,0
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=1.0 oracle mean_delta,0.0423887429649942,0.1083630560661975,0.0659743131012033
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=1.0 oracle power_detected,0,0.4,0.4
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=1.0 nnls mean_delta,0.0554108304303636,0.1338519274815611,0.0784410970511975
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=1.0 nnls power_detected,0,0.6,0.6
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=1.0 bp mean_delta,0.0492303787914248,0.1146107198214847,0.0653803410300599
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=1.0 bp power_detected,0,0.6,0.6
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=2.0 oracle mean_delta,0.0201309252301525,0.0249349865557023,0.0048040613255498
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=2.0 oracle power_detected,0,0,0
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=2.0 nnls mean_delta,0.0198829857885568,0.0236881697448015,0.0038051839562447
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=2.0 nnls power_detected,0,0,0
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=2.0 bp mean_delta,0.0183491758976521,0.0235983853109462,0.005249209413294
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal a beta=2.0 bp power_detected,0,0,0
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=1.0 oracle mean_delta,0.1627549683511419,0.1486472320679535,-0.0141077362831883
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=1.0 oracle power_detected,0.8,0.4,-0.4
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=1.0 nnls mean_delta,0.311656508094685,0.3779064566600937,0.0662499485654087
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=1.0 nnls power_detected,1,1,0
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=1.0 bp mean_delta,0.3084096092776132,0.3678171999480208,0.0594075906704076
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=1.0 bp power_detected,1,1,0
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=2.0 oracle mean_delta,0.0441422108649019,0.1309047562961924,0.0867625454312904
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=2.0 oracle power_detected,0.2,0.4,0.2
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=2.0 nnls mean_delta,0.1249611412315963,0.1721683716075226,0.0472072303759263
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=2.0 nnls power_detected,0.2,0.6,0.3999999999999999
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=2.0 bp mean_delta,0.1157573008069689,0.1711325995386016,0.0553752987316327
+"positive control: crDRP-full - bulk, affected drugs (pair)",signal b beta=2.0 bp power_detected,0.2,0.6,0.3999999999999999
+"positive control: A/A rate, crDRP-bulk all drugs, beta=0",line power_detected (seed-aware),0,0,0
+"positive control: A/A rate, crDRP-bulk all drugs, beta=0",line power_detected_boot (bootstrap only),0.2,0,-0.2
+"positive control: A/A rate, crDRP-bulk all drugs, beta=0",pair power_detected (seed-aware),0,0,0
+"positive control: A/A rate, crDRP-bulk all drugs, beta=0",pair power_detected_boot (bootstrap only),0,0,0
+transfer: regimen AUROC (GlobalXGB),GSE25066 bulk,0.7005271221209525,0.687102386331178,-0.0134247357897744
+transfer: regimen AUROC (GlobalXGB),GSE25066 bulk+pi7,0.6205499727350627,0.6344421074498195,0.0138921347147568
+transfer: regimen AUROC (GlobalXGB),GSE25066 resid,,,
+transfer: regimen AUROC (GlobalXGB),GSE32646 bulk,0.6502525252525252,0.6380471380471381,-0.0122053872053871
+transfer: regimen AUROC (GlobalXGB),GSE32646 bulk+pi7,0.5412457912457912,0.5454545454545454,0.0042087542087542
+transfer: regimen AUROC (GlobalXGB),GSE32646 resid,,,
+transfer: PDX mean Spearman over 5 drugs,GlobalXGB bulk,-0.0740380056169529,-0.1303242513768829,-0.0562862457599299
+transfer: PDX mean Spearman over 5 drugs,GlobalXGB bulk+pi7,0.0771783929678666,0.030634278002699,-0.0465441149651676
+transfer: PDX mean Spearman over 5 drugs,crDRP-bulk bulk,,,
+transfer: PDX mean Spearman over 5 drugs,crDRP-full full,,,
+PRISM replication: median per-drug r,PRISM [pair] drug PCA: all compounds,0.2544,0.2529,-0.0015
+PRISM replication: median per-drug r,PRISM [pair] drug PCA: refit without held-out drugs,,,
+PRISM replication: median per-drug r,PRISM [drug] drug PCA: all compounds,0.3773,0.3779,0.0005999999999999
+PRISM replication: median per-drug r,PRISM [drug] drug PCA: refit without held-out drugs,0.3684,0.3772,0.0087999999999999
+PRISM replication: median per-drug r,PRISM [cell] drug PCA: all compounds,-0.0891,-0.0926,-0.0035
+PRISM replication: median per-drug r,PRISM [cell] drug PCA: refit without held-out drugs,,,
+PRISM replication: median per-drug r,GDSC2 (same pipeline) [pair] drug PCA: all compounds,0.3713,0.3764,0.0050999999999999
+PRISM replication: median per-drug r,GDSC2 (same pipeline) [pair] drug PCA: refit without held-out drugs,,,
+PRISM replication: median per-drug r,GDSC2 (same pipeline) [drug] drug PCA: all compounds,0.2988,0.3291,0.0302999999999999
+PRISM replication: median per-drug r,GDSC2 (same pipeline) [drug] drug PCA: refit without held-out drugs,0.3565,0.3695,0.013
+PRISM replication: median per-drug r,GDSC2 (same pipeline) [cell] drug PCA: all compounds,0.0331,0.0313,-0.0017999999999999
+PRISM replication: median per-drug r,GDSC2 (same pipeline) [cell] drug PCA: refit without held-out drugs,,,

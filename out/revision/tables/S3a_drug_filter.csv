@@ -1,0 +1,7 @@
+step,n
+GDSC2 drugs screened on the 45 breast lines (AUC non-null),275
+structure (SMILES) resolved via PRISM annotation / OpenTargets->ChEMBL37,118
+"unresolved (drug_embedding_missing.csv, source gdsc_only)",157
+embedded (unique canonical SMILES; Morgan2048+Mordred),117
+lost at SMILES de-duplication: DPC-000002 (+)-JQ-1,1
+breast pairs with embedded drug (benchmark frame),4906

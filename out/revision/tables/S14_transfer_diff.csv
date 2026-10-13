@@ -1,0 +1,11 @@
+cohort,score,A,B,delta_auroc,ci_lo,ci_hi,boot_p_two_sided
+GSE25066,regimen_primary(taxane+epirubicin),GlobalXGB:bulk+pi7[ls],GlobalXGB:bulk[ls],-0.0526602788813584,-0.105157567813601,0.0003665157531211,0.051
+GSE25066,regimen_secondary(+5FU+cyclophosphamide),GlobalXGB:bulk+pi7[ls],GlobalXGB:bulk[ls],-0.0403001739762666,-0.1053215926930238,0.0272911728713836,0.238
+GSE25066,regimen_primary(taxane+epirubicin),GlobalXGB:bulkResid[ls],GlobalXGB:bulk[ls],-0.0343018877723247,-0.0693528387230114,-0.001684921033859,0.045
+GSE25066,regimen_secondary(+5FU+cyclophosphamide),GlobalXGB:bulkResid[ls],GlobalXGB:bulk[ls],-0.0219158162602893,-0.0673362897250412,0.0221022660986333,0.33
+GSE25066,regimen_primary(taxane+epirubicin),crDRP:crDRP-bulk[ls],GlobalXGB:bulk[ls],-0.0465321596426993,-0.1020056207324465,0.0073951085273075,0.084
+GSE25066,regimen_secondary(+5FU+cyclophosphamide),crDRP:crDRP-bulk[ls],GlobalXGB:bulk[ls],-0.074524161927761,-0.1489714275069129,-0.0020490807634366,0.044
+GSE32646,regimen_primary(taxane+epirubicin),GlobalXGB:bulk+pi7[ls],GlobalXGB:bulk[ls],-0.0925925925925926,-0.2353715584068431,0.0398450328407223,0.183
+GSE32646,regimen_secondary(+5FU+cyclophosphamide),GlobalXGB:bulk+pi7[ls],GlobalXGB:bulk[ls],-0.0673400673400673,-0.2168701302907482,0.074237616099071,0.348
+GSE32646,regimen_primary(taxane+epirubicin),GlobalXGB:bulkResid[ls],GlobalXGB:bulk[ls],-0.0711279461279461,-0.1696139681312175,0.0205344088971426,0.139
+GSE32646,regimen_secondary(+5FU+cyclophosphamide),GlobalXGB:bulkResid[ls],GlobalXGB:bulk[ls],-0.04503367003367,-0.1620699486219149,0.071813258117485,0.477

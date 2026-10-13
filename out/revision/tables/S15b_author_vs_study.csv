@@ -1,0 +1,11 @@
+celltype_major,B_plasma,CAF,PVL,T_NK,endothelial,malignant_epithelial,myeloid,normal_epithelial,unassigned,All
+B-cells,3100,0,0,8,0,4,50,12,0,3174
+CAFs,2,6141,317,0,3,10,21,6,0,6500
+Cancer Epithelial,11,43,36,31,4,18801,13,5029,0,23968
+Endothelial,1,2,8,20,7452,1,19,1,0,7504
+Myeloid,24,0,0,19,25,4,9469,7,0,9548
+Normal Epithelial,0,0,1,0,0,488,0,3803,0,4292
+PVL,1,26,5318,0,13,4,2,1,0,5365
+Plasmablasts,3450,0,1,4,1,23,3,21,2,3505
+T-cells,83,5,1,34752,4,51,16,107,0,35019
+All,6672,6217,5682,34834,7502,19386,9593,8987,2,98875

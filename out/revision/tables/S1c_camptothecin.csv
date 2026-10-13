@@ -1,0 +1,19 @@
+model,regime,median_perdrug_r_all_117,median_perdrug_r_excluding_camptothecin,abs_change
+GlobalXGB,pair,0.32,0.3177,0.0023
+GlobalXGB,drug,0.3235,0.3216,0.0019
+GlobalXGB,cell,0.0196,0.0174,0.0022
+crDRP-full (additive),pair,0.2265,0.2231,0.0034
+crDRP-full (additive),drug,0.2213,0.2224,0.0011
+crDRP-full (additive),cell,0.061,0.0601,0.0009
+crDRP-bulk (additive),pair,0.2091,0.205,0.0041
+crDRP-bulk (additive),drug,0.1837,0.1853,0.0016
+crDRP-bulk (additive),cell,0.0301,0.0318,0.0017
+Transformer-full,pair,0.3947,0.3915,0.0032
+Transformer-full,drug,0.283,0.2845,0.0015
+Transformer-full,cell,0.0044,0.0045,0.0001
+Transformer-bulk,pair,0.2692,0.2634,0.0058
+Transformer-bulk,drug,0.1965,0.1986,0.0021
+Transformer-bulk,cell,0.0289,0.0264,0.0025
+NaiveMeanEffects,pair,0.2651,0.2619,0.0032
+NaiveMeanEffects,drug,0.3466,0.3461,0.0005
+NaiveMeanEffects,cell,-0.3026,-0.303,0.0004

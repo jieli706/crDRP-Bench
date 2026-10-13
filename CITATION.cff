@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Cite the repository snapshot and its reported REV7 materials. The corrected v2.0-review computational archive is incomplete in this snapshot."
+title: "crDRP-Bench: REV7 materials and historical source code"
+type: software
+authors:
+  - family-names: Cheng
+    given-names: Xiaorong
+  - family-names: Yang
+    given-names: Jingqi
+  - family-names: Li
+    given-names: Haoxuan
+  - family-names: Sun
+    given-names: Yuetong
+  - family-names: Li
+    given-names: Jie
+repository-code: "https://github.com/jieli706/breast"
+version: "REV7-materials-20261013"
+keywords:
+  - drug-response prediction
+  - tumor admixture
+  - breast cancer
+  - tumor deconvolution
+  - pharmacogenomics

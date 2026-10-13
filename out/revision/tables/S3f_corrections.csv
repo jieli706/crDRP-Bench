@@ -1,0 +1,5 @@
+drug_id,drug_name,previous_structure,previous_smiles,corrected_smiles,reference
+DPC-000001,(+)-CAMPTOTHECIN,metformin,CN(C)C(=N)NC(=N)N,CC[C@@]1(O)C(=O)OCc2c1cc1-c3nc4ccccc4cc3Cn1c2=O,Sanger GDSC2 DRUG_ID 1003 CAMPTOTHECIN -> BROAD_ID BRD-K37890730 -> PRISM structure; = ChEMBL65; PubChem CID 24360
+DPC-000002,(+)-JQ-1,metformin,CN(C)C(=N)NC(=N)N,Cc1c(C)c2c(s1)-n1c(C)nnc1[C@H](CC(=O)OC(C)(C)C)N=C2c1ccc(Cl)cc1,Sanger GDSC2 DRUG_ID 2172 JQ1 -> BROAD_ID BRD-K54606188 -> PRISM 'JQ1-(+)' structure; = ChEMBL1957266
+DPC-000191,A-366,trefentanil,CCC(=O)N(c1ccccc1F)C1(c2ccccc2)CCN(CCn2nnn(CC)c2=O)CC1,COc1c(OCCCN2CCCC2)cc2N=C(N)C3(CCC3)c2c1,A-366 G9a/GLP inhibitor: ChEMBL3109630 (local ChEMBL 37); PubChem CID 76285486
+DPC-007402,BEN,benserazide,NC(CO)C(=O)NNCc1c(O)c(O)c(O)cc1,,three-letter name; Open Targets fuzzy hit benserazide not supported by any GDSC record available; structure removed

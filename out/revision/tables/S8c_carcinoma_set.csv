@@ -1,0 +1,63 @@
+OncotreeLineage,OncotreePrimaryDisease,carcinoma,n_lines_with_auc
+Adrenal Gland,Adrenocortical Carcinoma,True,1
+Biliary Tract,Intraductal Papillary Neoplasm of the Bile Duct,True,1
+Bladder/Urinary Tract,Bladder Urothelial Carcinoma,True,15
+Bladder/Urinary Tract,Urethral Cancer,True,1
+Bone,Chondrosarcoma,False,2
+Bone,Ewing Sarcoma,False,6
+Bone,Osteosarcoma,False,10
+Bowel,Colorectal Adenocarcinoma,True,42
+Bowel,Small Bowel Cancer,True,1
+CNS/Brain,Adult-Type Diffuse Glioma,False,32
+CNS/Brain,Diffuse Glioma,False,2
+CNS/Brain,Embryonal Tumor,False,4
+Cervix,Cervical Adenocarcinoma,True,3
+Cervix,Cervical Squamous Cell Carcinoma,True,6
+Cervix,Mixed Cervical Carcinoma,True,1
+Cervix,Small Cell Neuroendocrine Carcinoma of the Cervix,False,1
+Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,True,23
+Esophagus/Stomach,Esophagogastric Adenocarcinoma,True,28
+Fibroblast,Non-Cancerous,False,1
+Head and Neck,Head and Neck Squamous Cell Carcinoma,True,23
+Kidney,Renal Cell Carcinoma,True,16
+Kidney,Rhabdoid Cancer,False,4
+Liver,Hepatoblastoma,False,1
+Liver,Hepatocellular Carcinoma,True,13
+Lung,Lung Neuroendocrine Tumor,False,36
+Lung,Non-Small Cell Lung Cancer,True,92
+Lung,SMARCA4-deficient undifferentiated tumor,False,4
+Lymphoid,B-Cell Acute Lymphoblastic Leukemia,False,11
+Lymphoid,Hodgkin Lymphoma,False,5
+Lymphoid,Mature B-Cell Neoplasms,False,47
+Lymphoid,Mature T and NK Neoplasms,False,5
+Lymphoid,Non-Hodgkin Lymphoma,False,5
+Lymphoid,T-Lymphoblastic Leukemia/Lymphoma,False,11
+Myeloid,Acute Myeloid Leukemia,False,23
+Myeloid,Myeloproliferative Neoplasms,False,8
+Ovary/Fallopian Tube,Ovarian Epithelial Tumor,True,33
+Ovary/Fallopian Tube,Ovarian Germ Cell Tumor,False,1
+Pancreas,Adenosquamous Carcinoma of the Pancreas,True,1
+Pancreas,Pancreatic Adenocarcinoma,True,26
+Pancreas,Pancreatic Neuroendocrine Tumor,False,1
+Peripheral Nervous System,Neuroblastoma,False,18
+Pleura,Pleural Mesothelioma,False,7
+Prostate,Non-Cancerous,False,1
+Prostate,Prostate Adenocarcinoma,True,5
+Prostate,Prostate Small Cell Carcinoma,False,1
+Skin,Cutaneous Squamous Cell Carcinoma,True,2
+Skin,Melanoma,False,35
+Soft Tissue,CIC-DUX4 Sarcoma,False,1
+Soft Tissue,Epithelioid Sarcoma,False,1
+Soft Tissue,Fibrosarcoma,False,1
+Soft Tissue,Leiomyosarcoma,False,2
+Soft Tissue,Rhabdomyosarcoma,False,3
+Soft Tissue,Synovial Sarcoma,False,1
+Soft Tissue,Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma,False,1
+Testis,Non-Seminomatous Germ Cell Tumor,False,2
+Thyroid,Anaplastic Thyroid Cancer,True,6
+Thyroid,Poorly Differentiated Thyroid Cancer,True,1
+Thyroid,Well-Differentiated Thyroid Cancer,True,5
+Uterus,Endometrial Carcinoma,True,10
+Uterus,Gestational Trophoblastic Disease,False,2
+Uterus,Uterine Sarcoma/Mesenchymal,False,4
+Vulva/Vagina,Squamous Cell Carcinoma of the Vulva/Vagina,True,1

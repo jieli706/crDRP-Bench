@@ -1,0 +1,191 @@
+[
+  {
+    "figure": "Figure1",
+    "input_pdf_sha256": "df9d8937a582bc0200076dc01fc8b48e99f2606255764d945a8a0475dfd882fa",
+    "output_pdf": "figures/main/Figure1.pdf",
+    "output_pdf_sha256": "4bd6fc021e2933db782ae10bcb585e8e46f7b1060a9d12b20d815c18b7e15ceb",
+    "text_edits": [
+      {
+        "operator": 3820,
+        "before": "1477",
+        "after": "1475"
+      }
+    ],
+    "geometry_edits": [
+      {
+        "kind": "log-scale bar and annotation",
+        "old_count": 1477,
+        "new_count": 1475,
+        "vertical_delta_pt": -0.017694177581866092
+      }
+    ],
+    "method": "native vector PDF content edit; no raw model analyses rerun"
+  },
+  {
+    "figure": "Figure3",
+    "input_pdf_sha256": "921e90a1b0576afe266f24c433955a06014d655b9c2265415d80e4752f350f3a",
+    "output_pdf": "figures/main/Figure3.pdf",
+    "output_pdf_sha256": "91bb45a0d5d0c6e9ea83b0f08457cde2b9e0fafec05da134c5b8a42428093ece",
+    "text_edits": [
+      {
+        "operator": 966,
+        "before": "Spearman ρ with independent reference (95% bootstrap CI)",
+        "after": "Spearman r_s with independent reference (95% bootstrap CI)"
+      },
+      {
+        "operator": 2354,
+        "before": "f  Ours (blue) vs established tools (grey), TCGA-BRCA",
+        "after": "f  Ours (blue) vs established tools (gray), TCGA-BRCA"
+      }
+    ],
+    "geometry_edits": [],
+    "method": "native vector PDF content edit; no raw model analyses rerun"
+  },
+  {
+    "figure": "Figure6",
+    "input_pdf_sha256": "7735d206751e7cb721061bff00fe81b98da667627fe1ef7fa90e5ce834b5eb34",
+    "output_pdf": "figures/main/Figure6.pdf",
+    "output_pdf_sha256": "6e045de176cf555bd725ad4cf3e7c0882320ad8c32cb5c1394eb6be6ce3a3331",
+    "text_edits": [
+      {
+        "operator": 4085,
+        "before": "architecture / featurisation",
+        "after": "architecture / featurization"
+      }
+    ],
+    "geometry_edits": [
+      {
+        "kind": "legend translation",
+        "entry": "e, pooled",
+        "dx_pt": -35.30124999999998,
+        "dy_pt": 101.88280499999999
+      },
+      {
+        "kind": "legend translation",
+        "entry": "e, stroma-rich",
+        "dx_pt": -35.30124999999998,
+        "dy_pt": 101.87968000000001
+      },
+      {
+        "kind": "legend translation",
+        "entry": "e, myeloid-rich",
+        "dx_pt": -35.30124999999998,
+        "dy_pt": 101.89218000000002
+      },
+      {
+        "kind": "legend translation",
+        "entry": "e, bulk",
+        "dx_pt": 51.69875000000002,
+        "dy_pt": 120.47343000000001
+      },
+      {
+        "kind": "legend translation",
+        "entry": "e, BayesPrism",
+        "dx_pt": 51.69875000000002,
+        "dy_pt": 120.48593000000002
+      },
+      {
+        "kind": "legend translation",
+        "entry": "e, oracle",
+        "dx_pt": 51.69875000000002,
+        "dy_pt": 120.48280500000001
+      },
+      {
+        "kind": "legend translation",
+        "entry": "f, total",
+        "dx_pt": 0,
+        "dy_pt": 114.014375
+      },
+      {
+        "kind": "legend translation",
+        "entry": "f, architecture",
+        "dx_pt": 130.98375,
+        "dy_pt": 120.883125
+      },
+      {
+        "kind": "legend translation",
+        "entry": "f, TME estimation",
+        "dx_pt": 286.98375,
+        "dy_pt": 132.964375
+      },
+      {
+        "kind": "legend translation",
+        "entry": "f, malignant estimation",
+        "dx_pt": -93.18125,
+        "dy_pt": 101.014375
+      },
+      {
+        "kind": "legend translation",
+        "entry": "f, bulk loss",
+        "dx_pt": 193.81875,
+        "dy_pt": 107.96125
+      }
+    ],
+    "method": "native vector PDF content edit; no raw model analyses rerun"
+  },
+  {
+    "figure": "FigureS3",
+    "input_pdf_sha256": "86d907d5560a5c8530ccfb845d5d01d06abca21d3d77b1ff918ac28c147261cf",
+    "output_pdf": "figures/supplementary/FigureS3.pdf",
+    "output_pdf_sha256": "c1c9bd0eb0d320f44b054513aa2dc3372b363c5614cb0b30f06fe272b791057d",
+    "text_edits": [
+      {
+        "operator": 1416,
+        "before": "fit on 1,477-compound library",
+        "after": "fit on 1,475-compound library"
+      }
+    ],
+    "geometry_edits": [],
+    "method": "native vector PDF content edit; no raw model analyses rerun"
+  },
+  {
+    "figure": "FigureS5",
+    "input_pdf_sha256": "6005491259919516ef5544f97782326afe821f28f79be8d045dfa807e7352b83",
+    "output_pdf": "figures/supplementary/FigureS5.pdf",
+    "output_pdf_sha256": "cfa88cb48a9d71ff8874221e24a292c1e2fc678c937865cd46fc94795d588b9f",
+    "text_edits": [
+      {
+        "operator": 525,
+        "before": "a  Signature-TME pseudo-bulks: RMSE",
+        "after": "a  Signature-TME RMSE"
+      },
+      {
+        "operator": 1075,
+        "before": "b  Signature-TME pseudo-bulks: bias",
+        "after": "b  Signature-TME bias"
+      },
+      {
+        "operator": 1157,
+        "before": "tumour purity / malignant fraction",
+        "after": "tumor purity / malignant fraction"
+      },
+      {
+        "operator": 1521,
+        "before": "Dotted lines: equal-width bands; grey: ρ<0.3.",
+        "after": "Dotted lines: equal-width bands; gray: ρ<0.3."
+      }
+    ],
+    "geometry_edits": [],
+    "method": "native vector PDF content edit; no raw model analyses rerun"
+  },
+  {
+    "figure": "FigureS14",
+    "input_pdf_sha256": "6b0512dfa75b04ece5075d47f2eb1cbec8f699e27fea4fced990a7b9e890536c",
+    "output_pdf": "figures/supplementary/FigureS14.pdf",
+    "output_pdf_sha256": "13abdec9cd69ae768afcac9d568b89ac9a24a8d6268d735f3cd87d0dff309221",
+    "text_edits": [
+      {
+        "operator": 170,
+        "before": "GlobalXGB, TME-residualised input",
+        "after": "GlobalXGB, TME-residualized input"
+      },
+      {
+        "operator": 1415,
+        "before": "Spearman ρ (predicted AUC vs",
+        "after": "Spearman r_s (predicted AUC vs"
+      }
+    ],
+    "geometry_edits": [],
+    "method": "native vector PDF content edit; no raw model analyses rerun"
+  }
+]

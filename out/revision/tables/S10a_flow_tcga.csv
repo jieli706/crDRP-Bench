@@ -1,0 +1,32 @@
+cohort,step,n_remaining,n_excluded,reason
+TCGA,TCGA-BRCA STAR-count samples (UCSC Xena GDC hub),1226,,
+TCGA,excluded: solid tissue normal (sample type 11),1113,113,not a tumour
+TCGA,excluded: metastatic (sample type 06),1106,7,not a primary tumour
+TCGA,primary-tumour aliquots deconvolved with BayesPrism,1106,,1095 unique patients
+TCGA,excluded: additional aliquot of an already-included patient (kept lexicographically first barcode = vial A),1095,11,one tumour per patient
+TCGA,excluded: patient not in TCGA-CDR BRCA table,1094,1,no curated clinical record
+TCGA,excluded: case flagged 'Redacted' in TCGA-CDR,1090,4,CDR redaction
+TCGA-OS,cohort after CDR/redaction exclusions,1090,,
+TCGA-OS,excluded: OS event or time missing,1089,1,CDR endpoint missing
+TCGA-OS,excluded: OS.time = 0 days,1076,13,zero follow-up
+TCGA-OS,  -> KM / unadjusted analysis set,1076,,events=151
+TCGA-OS,excluded: PAM50 missing,1076,0,covariate missing
+TCGA-OS,excluded: stage missing / Stage X / [Discrepancy] / [Not Available],1052,24,covariate missing
+TCGA-OS,excluded: age missing,1052,0,covariate missing
+TCGA-OS,  -> adjusted Cox analysis set,1052,,events=140
+TCGA-PFI,cohort after CDR/redaction exclusions,1090,,
+TCGA-PFI,excluded: PFI event or time missing,1089,1,CDR endpoint missing
+TCGA-PFI,excluded: PFI.time = 0 days,1076,13,zero follow-up
+TCGA-PFI,  -> KM / unadjusted analysis set,1076,,events=145
+TCGA-PFI,excluded: PAM50 missing,1076,0,covariate missing
+TCGA-PFI,excluded: stage missing / Stage X / [Discrepancy] / [Not Available],1052,24,covariate missing
+TCGA-PFI,excluded: age missing,1052,0,covariate missing
+TCGA-PFI,  -> adjusted Cox analysis set,1052,,events=136
+TCGA-DSS,cohort after CDR/redaction exclusions,1090,,
+TCGA-DSS,excluded: DSS event or time missing,1070,20,CDR endpoint missing
+TCGA-DSS,excluded: DSS.time = 0 days,1057,13,zero follow-up
+TCGA-DSS,  -> KM / unadjusted analysis set,1057,,events=83
+TCGA-DSS,excluded: PAM50 missing,1057,0,covariate missing
+TCGA-DSS,excluded: stage missing / Stage X / [Discrepancy] / [Not Available],1035,22,covariate missing
+TCGA-DSS,excluded: age missing,1035,0,covariate missing
+TCGA-DSS,  -> adjusted Cox analysis set,1035,,events=79

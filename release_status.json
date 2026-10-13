@@ -1,0 +1,40 @@
+{
+  "snapshot_id": "REV7-materials-20261013",
+  "prepared_date": "2026-10-13",
+  "manuscript_revision": "REV7",
+  "purpose": "Current reported tables and figures, with historical code provenance",
+  "reproducibility_complete": false,
+  "published_release_url": null,
+  "archive_doi": null,
+  "included": {
+    "workbook_sheets": 63,
+    "table_csv_exports": 62,
+    "main_figures": 6,
+    "supplementary_figures": 18,
+    "figure_formats": [
+      "PDF",
+      "PNG"
+    ],
+    "legacy_code_origins": [
+      "2026-08-16 source repository",
+      "2026-09 local reconstruction and revision analyses"
+    ]
+  },
+  "corrected_release_components": {
+    "revision_scripts": "missing",
+    "ordered_inputs_and_corrected_features": "missing",
+    "per_seed_fold_splits": "missing",
+    "fitted_preprocessing": "missing",
+    "out_of_fold_predictions": "missing",
+    "model_weights": "missing",
+    "barcode_level_atlas_audit": "summary_only",
+    "training_environment_and_logs": "legacy_only"
+  },
+  "software_license": "not supplied; pending author selection",
+  "assembly_validation": {
+    "csv_cells_compared_to_source": 309769,
+    "pngs_matched_to_clean_rev7_documents": 24,
+    "model_training_performed": false,
+    "scientific_analyses_rerun": false
+  }
+}

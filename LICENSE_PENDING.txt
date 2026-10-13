@@ -1,0 +1,4 @@
+No final software license was included in the source packages used for this snapshot.
+No new license is assigned by this assembly. The authors should select and add the
+appropriate license when publishing the repository. Source datasets retain their
+original providers' terms.

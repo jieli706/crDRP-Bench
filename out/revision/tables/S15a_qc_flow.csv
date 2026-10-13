@@ -1,0 +1,16 @@
+step,n_cells
+raw CELLxGENE barcodes,100064
+fail n_genes <= 200,8
+fail n_genes >= 7000,344
+fail pct_mt >= 20,35
+fail Scrublet score >= 0.25,698
+removed by QC (any criterion),1084
+retained after QC,98980
+in DROP clusters 4/5/24,105
+cells in annotated atlas,98875
+  of which no compartment_final (epithelial cells in donors skipped by inferCNV),2
+cells with an 8-compartment label,98873
+  malignant_epithelial,19386
+    of which CNV score available (Fig 2e),19385
+    of which cluster 10 relabelled wholesale,1000
+  normal_epithelial,8987
